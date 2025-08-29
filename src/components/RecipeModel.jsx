@@ -33,7 +33,7 @@ const RecipeModal = ({ recipe, onClose }) => {
         </ol>
         <p className="text-gray-700 mb-4">{recipe.strInstructions}</p>
         <p className="text-gray-600">
-          Category: {recipe.strCategory} | Area: {recipe.strArea}0
+          Category: {recipe.strCategory} | Area: {recipe.strArea}
           <p>Source : {recipe.strSource}</p>
           <p>🎦{recipe.strYoutube}</p>
         </p>
